@@ -140,7 +140,3 @@ class GameshowWindow:
 
     def update(self):
         self._window.update()
-
-if __name__ == '__main__':
-    app = GameshowWindow(None)
-    app.run_app()
