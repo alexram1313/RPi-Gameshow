@@ -2,7 +2,7 @@ import gameshow
 import tkinter
 import math
 
-_FONT_FAM = 'Ariel'
+_FONT_FAM = 'Arial'
 #_FONT_FAM = 'Trebuchet MS'
 _FONT_SIZE= 35
 _Q_LBL_RAT= 35/(720*480)
