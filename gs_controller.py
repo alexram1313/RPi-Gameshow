@@ -16,9 +16,6 @@ class GameshowController:
         self._buzzer = BuzzerMatch(BuzzerMatch.GPIO_BOARD, BTN1, LED1, BTN2, LED2)
         self.set_score_view()
         self._view.run_app()
-    def next_question(self):
-        self._player = None
-        return self._game.next_question()
     def start_buzzer(self):
         #GPIO
         pass
